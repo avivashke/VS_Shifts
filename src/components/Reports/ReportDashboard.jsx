@@ -7,9 +7,9 @@ import AppProvider from './context/AppContext';
 import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 import ErrorBoundary from './utils/ErrorBoundary';
-import ReportDashboard from './pages/Reports/ReportDashboard';
-import ReportConfiguration from './pages/Reports/ReportConfiguration';
-import ReportScheduler from './pages/Reports/ReportScheduler';
+import ReportDashboard from './components/Reports/ReportDashboard';
+import ReportConfiguration from './pages/ReportConfiguration';
+import ReportScheduler from './pages/ReportScheduler';
 
 function App() {
   return (
